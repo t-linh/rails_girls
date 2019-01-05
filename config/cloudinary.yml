@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: duongph
+  api_key: '743924176636335'
+  api_secret: xvu4BzMbYtsQ3aUEgVRO0soxl14
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: duongph
+  api_key: '743924176636335'
+  api_secret: xvu4BzMbYtsQ3aUEgVRO0soxl14
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: duongph
+  api_key: '743924176636335'
+  api_secret: xvu4BzMbYtsQ3aUEgVRO0soxl14
+  enhance_image_tag: true
+  static_image_support: false
