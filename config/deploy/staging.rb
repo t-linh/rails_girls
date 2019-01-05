@@ -1,3 +1,9 @@
+set :user, "root"
+set :deploy_via, :remote_cache
+set :conditionally_migrate, true
+set :rails_env, "staging"
+
+server "172.17.0.2", user: fetch(:user), port: fetch(:port), roles: %w(web app db)
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
