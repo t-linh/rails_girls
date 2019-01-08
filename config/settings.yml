@@ -1,0 +1,2 @@
+devise:
+  secret_key: "DEVISE_SECRET_KEY"
