@@ -36,8 +36,12 @@ group :development do
   gem "capistrano"
   gem "capistrano-rails"
   gem "capistrano3-unicorn"
-  gem "unicorn"
   gem "capistrano-rvm"
+end
+
+group :staging, :production do
+  gem "unicorn"
+  gem "better_errors"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
