@@ -9,7 +9,7 @@ set :bundle_binstubs, nil
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 set :branch, "develop"
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/var/www/#{fetch(:application)}"
+set :deploy_to, "/var/www/html/#{fetch(:application)}"
 
 # set :tmp_dir, '/tmp'
 set :local_user, 'framgia'
