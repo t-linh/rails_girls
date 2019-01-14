@@ -25,23 +25,22 @@ gem "config"
 gem "listen"
 
 group :development, :test do
+  gem "better_errors"
   gem "byebug", platform: :mri
-  gem "rspec-rails"
+  gem "pry-byebug"
+  gem "pry-rails"
+  gem "rails-controller-testing"
 end
 
 group :development do
   gem "web-console", ">= 3.3.0"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
-  gem "capistrano"
-  gem "capistrano-rails"
-  gem "capistrano3-unicorn"
-  gem "capistrano-rvm"
-end
-
-group :staging, :production do
-  gem "unicorn"
-  gem "better_errors"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "capistrano"
+gem "capistrano-rails"
+gem "capistrano3-unicorn"
+gem "unicorn"
+gem "capistrano-rvm"
