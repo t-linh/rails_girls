@@ -7,6 +7,8 @@ class UsersController < ApplicationController
     # hello
     # world
     # manh dep trai vo cung
+    # xin chao
+    # toi ten la Son
   end
 
   #PUT /user
