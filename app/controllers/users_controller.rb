@@ -4,6 +4,8 @@ class UsersController < ApplicationController
 
   # GET /user/edit
   def edit
+    # hello
+    # world
   end
 
   #PUT /user
