@@ -6,6 +6,7 @@ class UsersController < ApplicationController
   def edit
     # hello
     # world
+    # manh dep trai vo cung
   end
 
   #PUT /user
