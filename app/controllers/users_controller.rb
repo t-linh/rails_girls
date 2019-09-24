@@ -9,6 +9,8 @@ class UsersController < ApplicationController
     # manh dep trai vo cung
     # xin chao
     # toi ten la Son
+    # xin chao ahihi abcxyz
+
   end
 
   #PUT /user
